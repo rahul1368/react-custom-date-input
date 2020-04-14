@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  margin: 100px;
+}
+.continue {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  width: 280px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #19b38d;
+}
+#date-block {
+  display: inline-block;
+  /*border-bottom: 1px solid;*/
+}
+.button-block {
+  margin-top: 150px;
+}
+.hide {
+  display: none;
+}
+.error-msg {
+  color: red;
+}
+
+/* Date Input CSS*/
+
+.date-container {
+  display: inline-block;
+  padding: 0 10px;
+  border-bottom: 1px solid;
+}
+.dd-input,
+.mm-input,
+.yy-input {
+  border: 0;
+  width: 50px;
+  padding: 10px 0;
+  outline: none;
+  font-size: 20px;
+}
+.separator {
+  padding-right: 15px;
+}
